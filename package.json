@@ -1,0 +1,18 @@
+{
+  "name": "djangular-pack",
+  "version": "1.0.0",
+  "scripts": {
+    "lint:djg": "django-lint **/*.py",
+    "django": "./manage.py runserver 0.0.0.0:$(/bin/cat port)"
+  },
+  "license": "All rights reserved",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andy23512/djangular-pack"
+  },
+  "author": {
+    "name": "andy23512",
+    "email": "andy23512@gmail.com"
+  },
+  "private": false
+}

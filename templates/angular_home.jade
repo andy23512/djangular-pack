@@ -1,0 +1,14 @@
+extends 'base.jade'
+- load static
+block head_title
+  title djangular-pack
+
+block content
+  app-root
+
+block js
+  script(src="{% static 'inline.bundle.js' %}")
+  script(src="{% static 'polyfills.bundle.js' %}")
+  script(src="{% static 'styles.bundle.js' %}")
+  script(src="{% static 'vendor.bundle.js' %}")
+  script(src="{% static 'main.bundle.js' %}")
