@@ -6,8 +6,8 @@
     "postinstall": "node pug-rule-insert.js",
     "ng": "ng",
     "start": "ng serve",
-    "dev-build": "ng build",
-    "prod-build": "ng build --prod",
+    "build": "ng build",
+    "prod-build": "ng build --prod --output-hashing=none",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
